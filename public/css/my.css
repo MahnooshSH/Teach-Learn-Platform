@@ -1,0 +1,475 @@
+.card-header {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.card-footer
+{
+    background-color: rgba(255, 255, 255, 0.03);
+}
+/*=========sticky===========*/
+
+
+.sticky-60px_top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 12px;
+    z-index: 300;
+}
+@media (max-width: 960px) {
+
+    .sticky-60px_top
+    {
+        font-size:0.7rem;
+        top: 60px;
+    }
+}
+
+.sticky-side-menu-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    z-index: 300;
+}
+.sticky-tag-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    z-index: 300;
+    background-color: white;
+}
+
+@media (max-width: 960px) {
+
+    .sticky-side-menu-top
+    {
+        font-size:0.7rem;
+        top: 60px;
+    }
+    .sticky-tag-top
+    {
+        position: relative;
+    }
+}
+
+
+/*====================*/
+.nav-tabs {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    background: #ffffff;
+    color: #000;
+    z-index: 1040;
+    border: 4px solid #ffffff;
+
+}
+.nav-tabs > li > a {
+    color: #000000;
+}
+.nav-tabs > li > a:hover{
+    border-radius: 0;
+    background-color: rgba(221, 220, 222, 0.9) !important;
+
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    border-radius: 0;
+    background: #eaedf0;
+    color: #000000;
+
+
+}
+.tab-content
+{
+
+    padding-top: 40px;
+}
+/*============= width of content======*/
+
+
+.content-width-70
+{
+   width: 70%;
+}
+@media (max-width: 1200px) {
+    .content-width-70 {
+        width: 100%;
+    }
+}
+/*==============*/
+
+/*=============  profile  */
+.profile-username
+{
+    font-family: cursive;
+    position: relative;
+    color: white;
+    top: -150px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.profile-image
+{
+    border: 5px solid #ffffff;
+    position: relative;
+    top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    z-index: 1;
+}
+.profile-body
+{
+    margin-top: -120px;
+}
+
+
+/*=======posts=======*/
+.card_width_center
+{
+   width: 720px;
+   margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+@media (max-width: 960px) {
+
+    .card_width_center
+    {
+        width: 100%;
+
+    }
+}
+/*====== courses =======*/
+.course_box
+{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.course_box:hover
+{
+
+    -webkit-box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.16);
+}
+.course_title
+{
+    word-wrap: break-word;
+    height: 100%;
+}
+@media (max-width: 960px) {
+
+    .course_title
+    {
+       font-size: 1.1rem;
+
+    }
+}
+.course_content_scroll
+{
+    max-height: 550px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+.course_content_scroll::-webkit-scrollbar {
+    display: none;
+}
+.course_content_list
+{
+    border: #ffffff solid 8px;
+}
+.lessons_list
+{
+    color: #000000;
+    border: #aea0c0 dotted 3px;
+
+}
+.edu_sessions_list
+{
+    color: #000000;
+}
+.course_content_active
+{
+    background-color: whitesmoke;
+}
+
+/*=======*/
+pre {
+    font-family:"Roboto","shabnam", sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+/*======= btn text ===*/
+.btn_text {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+
+}
+.btn_text:focus, .btn_text.focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+/*==== icons  =====*/
+.icon_size_l
+{
+    font-size: 25px;
+}
+.icon_size_m
+{
+    font-size: 22px;
+}
+.icon_size_s
+{
+    font-size: 18px;
+}
+
+.icon_size_xs
+{
+    font-size: 12px;
+}
+
+@media (max-width: 960px) {
+    .icon_size_l
+    {
+        font-size: 20px;
+    }
+    .icon_size_m
+    {
+        font-size: 18px;
+    }
+
+}
+.liked_red
+{
+    color: red;
+}
+.liked_blue
+{
+    color: #272751;
+}
+.up_vote
+{
+    color: #06d93f;
+}
+.down_vote
+{
+    color: #ff4f62;
+}
+
+/*---------- -----*/
+.black_text
+{
+    color: black;
+}
+
+/*--------tag---------*/
+.tag_title
+{
+    color: #ffffff;
+    background-color: #424951;
+    border: solid 3px #424951;
+    border-radius: 10rem;;
+    padding: 0.5rem 0.5rem;
+    font-size: 1.3rem;
+}
+.tag-nav .active
+{
+    border-bottom: solid #424951 4px;
+}
+
+/*------- rating ---------*/
+.rate {
+    float: left;
+    height: 46px;
+}
+.rate > input { display: none; }
+
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc900;
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #ffb300;
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #ffb300;
+}
+
+/*-------star color------------*/
+.star_yellow
+{
+    color: #ffc000;
+}
+
+
+
+/*--------- live search ---------*/
+.live_search
+{
+    max-height: 280px;
+    width: 480px;
+    overflow-y: scroll;
+}
+
+/*--------------*/
+.new_b_book {
+    /* The image used
+    background-image: url("../images/backbooks.jpg");
+
+     Add the blur effect
+
+
+     Full height
+    height: 100%;
+
+     Center and scale the image nicely
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+
+
+/*---------carousal--------------*/
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 1rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+.carousel-caption_a {
+    left: 8rem;
+    bottom: 20rem;
+    color: #434343;
+    z-index: 10;
+}
+.carousel-caption_b {
+    left: 8rem;
+    bottom: 20rem;
+    z-index: 10;
+}
+.carousel-caption_c {
+    bottom: 7rem;
+    z-index: 10;
+}
+.carousel-caption_d {
+    bottom: 17rem;
+    color: #272727;
+    z-index: 10;
+}
+.carousel-caption_f {
+    bottom: 1rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 30rem;
+    background-color: #777;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 30rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: 400;
+}
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 2rem;
+    }
+}
+
+
+
