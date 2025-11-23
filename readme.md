@@ -36,6 +36,12 @@ Users have two roles: **Teacher** or **Student**, each with specific capabilitie
 - Uploading lecture **videos**
 
 
+| ![courses_screenshot](./public/images/screenshots/show_courses.png) | ![course_video](./public/images/screenshots/video.png) |
+| --- | --- |
+| ![course_info](./public/images/screenshots/course_info.png) | ![manage_course_content](./public/images/screenshots/manage_course_content.png) |
+
+
+
 ---
 
 ### Online Exam System
@@ -45,6 +51,8 @@ Users have two roles: **Teacher** or **Student**, each with specific capabilitie
 - Full exam management panel for teachers  
 
 
+| ![quiz_after_start](./public/images/screenshots/show_quiz_after_start.png) | ![quiz_answer_sheet](./public/images/screenshots/answer_sheet.png) |
+| --- | --- |
 
 ---
 
@@ -55,6 +63,9 @@ A StackOverflow-like environment:
 - Others can answer  
 - **Upvote/downvote** answers  
 - Tagging system  
+
+| ![show_q_a](./public/images/screenshots/show_q_a.png) |
+| --- |
 
 ---
 
@@ -67,6 +78,10 @@ Each user has a complete profile including:
 - Posts
 - Questions 
 
+
+| ![profile](./public/images/screenshots/profile.png) | ![edit_profile](./public/images/screenshots/edit_profile.png) |
+| --- | --- |
+
 ---
 
 ### Social Posts & Interactions
@@ -76,6 +91,9 @@ A lightweight internal social network:
 - Others can like & comment  
 - Posts support tagging  
 - Filter/search posts by tags  
+
+| ![post](./public/images/screenshots/show_post.png) | ![edit_post](./public/images/screenshots/edit_post.png) |
+| --- | --- |
 
 ---
 
