@@ -64,8 +64,15 @@ A StackOverflow-like environment:
 - **Upvote/downvote** answers  
 - Tagging system  
 
-| ![show_q_a](./public/images/screenshots/show_q_a.png) |
-| --- |
+### Library (shared files)
+- Users can share their books/notes/presentations:
+- Download shared files
+- **Upvote/downvote** shared files
+- Tagging system
+
+
+| ![q_a](./public/images/screenshots/show_q_a.png) | ![shated_files](./public/images/screenshots/show_shared_file.png) |
+| --- | --- |
 
 ---
 
@@ -102,7 +109,8 @@ Tags are used across the entire platform:
 
 - Courses  
 - Posts  
-- Questions  
+- Questions
+- Shared Files  
 
 This provides consistent and powerful content classification.
 
