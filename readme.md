@@ -26,6 +26,36 @@ Users have two roles: **Teacher** or **Student**, each with specific capabilitie
 - Take online exams  
 - View results  
 
+
+---
+
+### User Profiles
+Each user has a complete profile including:
+
+- Avatar  
+- Personal information  
+- Enrolled courses  
+- Posts
+- Questions 
+
+
+| ![profile](./public/images/screenshots/profile.png) | ![edit_profile](./public/images/screenshots/edit_profile.png) |
+| --- | --- |
+
+---
+
+### Social Posts & Interactions
+A lightweight internal social network:
+
+- Users can create posts  
+- Others can like & comment  
+- Posts support tagging  
+- Filter/search posts by tags  
+
+| ![post](./public/images/screenshots/show_post.png) | ![edit_post](./public/images/screenshots/edit_post.png) |
+| --- | --- |
+
+
 ---
 
 ### Courses Module
@@ -72,34 +102,6 @@ A StackOverflow-like environment:
 
 
 | ![q_a](./public/images/screenshots/show_q_a.png) | ![shated_files](./public/images/screenshots/show_shared_file.png) |
-| --- | --- |
-
----
-
-### User Profiles
-Each user has a complete profile including:
-
-- Avatar  
-- Personal information  
-- Enrolled courses  
-- Posts
-- Questions 
-
-
-| ![profile](./public/images/screenshots/profile.png) | ![edit_profile](./public/images/screenshots/edit_profile.png) |
-| --- | --- |
-
----
-
-### Social Posts & Interactions
-A lightweight internal social network:
-
-- Users can create posts  
-- Others can like & comment  
-- Posts support tagging  
-- Filter/search posts by tags  
-
-| ![post](./public/images/screenshots/show_post.png) | ![edit_post](./public/images/screenshots/edit_post.png) |
 | --- | --- |
 
 ---
